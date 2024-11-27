@@ -30,7 +30,7 @@ Introduction to C# and .NET Framework
 Writing Your First C# Program
 
 - Set up your development environment (Visual Studio, VS Code, or other).
-  When trying to run my code in Ubuntu I had numerous issues so I switched over to my local computer where I had issues regarding permissions so I had to create files by entering 'dotnet new console -n <application name>' which then allowed me to run my code. I found that this is because c# is a more secure language than javascript
+  When trying to run my code in Ubuntu I had numerous issues so I switched over to my local computer where I had issues regarding permissions so I had to create files by entering 'dotnet new console -n application name' which then allowed me to run my code. I found that this is because c# is a more secure language than javascript
 
 - Create a new C# project with a .cs file extension.
   please See Day1-MyFirstProgram
@@ -54,12 +54,13 @@ Variables, Constants, and Data Types in C#
 
 - Explore how to declare and initialize variables in C#.
   to declare a variable we do it like this:
-  '<variable-type> <variable-name> = <data>'
+  'variable-type variable-name = data'
 - Learn the difference between variables and constants in C#.
   The value of a constant can not change but a variable can
 - Understand how to declare and initialize variables and constants.
   to declare a constant we do it like this:
-  'const <variable-type> <variable-name> = <data>'
+  'const variable-type variable-name = data'
+  an 'enum' is a group of constants
 - Explore the different C# data types in variable declarations and their uses.
 - Research C# single and multidimensional array data structures, including useful methods.
 - Practice using variables and constants to create variables of different data types in your C# programs.
@@ -67,6 +68,7 @@ Variables, Constants, and Data Types in C#
 Build Something 🔨
 
 - Name Badge Generator: Create a name prompt program that asks users for their name, job, and contact information. Once the program has this information, output a name badge with this information.
+  Please see Day3-smallprojects
 - Explore how to accept user input through use of the ReadLine() method.
 
 ---
