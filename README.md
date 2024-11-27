@@ -30,14 +30,22 @@ Introduction to C# and .NET Framework
 Writing Your First C# Program
 
 - Set up your development environment (Visual Studio, VS Code, or other).
+  When trying to run my code in Ubuntu I had numerous issues so I switched over to my local computer where I had issues regarding permissions so I had to create files by entering 'dotnet new console -n <application name>' which then allowed me to run my code. I found that this is because c# is a more secure language than javascript
 
 - Create a new C# project with a .cs file extension.
+  please See Day1-MyFirstProgram
+
 - Write a simple "Hello, world!" program in C#.
+  please See Day1-MyFirstProgram
+
 - Build and run your program to verify that it works correctly.
+  please See Day1-MyFirstProgram
+  For it to run I had to use 'dotnet run' in the terminal
 
 Basic Syntax and Data Types
 
 - Print "Hello World" to the console using C#.
+  To do this you use 'Console.WriteLine("Hello World!")'
 - Learn the basic syntax of the C# programming language.
 - Understand C# data types, including integers, floating-point numbers, characters, booleans, and strings.
 - Practice creating and using arithmetic operators and expressions.
@@ -45,8 +53,13 @@ Basic Syntax and Data Types
 Variables, Constants, and Data Types in C#
 
 - Explore how to declare and initialize variables in C#.
+  to declare a variable we do it like this:
+  '<variable-type> <variable-name> = <data>'
 - Learn the difference between variables and constants in C#.
+  The value of a constant can not change but a variable can
 - Understand how to declare and initialize variables and constants.
+  to declare a constant we do it like this:
+  'const <variable-type> <variable-name> = <data>'
 - Explore the different C# data types in variable declarations and their uses.
 - Research C# single and multidimensional array data structures, including useful methods.
 - Practice using variables and constants to create variables of different data types in your C# programs.

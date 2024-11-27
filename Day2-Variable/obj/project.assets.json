@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day1-MyFirstProgram\\Day1-MyFirstProgram.csproj",
-      "projectName": "Day1-MyFirstProgram",
-      "projectPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day1-MyFirstProgram\\Day1-MyFirstProgram.csproj",
+      "projectUniqueName": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day2-Variable\\Day2-Variable.csproj",
+      "projectName": "Day2-Variable",
+      "projectPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day2-Variable\\Day2-Variable.csproj",
       "packagesPath": "C:\\Users\\leose\\.nuget\\packages\\",
-      "outputPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day1-MyFirstProgram\\obj\\",
+      "outputPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day2-Variable\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leose\\AppData\\Roaming\\NuGet\\NuGet.Config"

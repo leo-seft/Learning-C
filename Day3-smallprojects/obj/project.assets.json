@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day1-MyFirstProgram\\Day1-MyFirstProgram.csproj",
-      "projectName": "Day1-MyFirstProgram",
-      "projectPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day1-MyFirstProgram\\Day1-MyFirstProgram.csproj",
+      "projectUniqueName": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day3-smallprojects\\Day3-smallprojects.csproj",
+      "projectName": "Day3-smallprojects",
+      "projectPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day3-smallprojects\\Day3-smallprojects.csproj",
       "packagesPath": "C:\\Users\\leose\\.nuget\\packages\\",
-      "outputPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day1-MyFirstProgram\\obj\\",
+      "outputPath": "C:\\Work & Learning\\Multiverse BOOTCAMP\\Independent\\Learning-C#\\Day3-smallprojects\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\leose\\AppData\\Roaming\\NuGet\\NuGet.Config"
