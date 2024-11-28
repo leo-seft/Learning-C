@@ -88,14 +88,29 @@ Tasks:
 Conditional Statements (if-else, switch)
 
 - Learn about the different types of conditional statements in C# (if-else, switch).
+  If-else statements work the same as JavaScript
+  Switch statements work using Case as the if and default as else for example
+  'switch(year){
+  case 1 :{
+  Text
+  break
+  }
+  default:{
+  Text
+  break
+  }
+  }'
 - Understand how to use logical operators (AND, OR, NOT) in C# conditional statements.
 - Practice writing conditional statements to control program flow based on conditions. For example, create a simple program that outputs different responses based on the user input.
+  please see Day3-ConditionalsAndLoops
 
 Loops (for, while, do-while)
 
 - Learn about the different types of loops in C# (for, while, do-while).
+  for and while loops work the same as in JavaScript
 - Understand how to use break and continue statements in loops.
 - Practice writing loops to repeat code based on certain conditions. For example, create a program that prints out all even numbers between 0 and a value specified by a user.
+  please see Day3-ConditionalsAndLoops
 
 Functions in C# (creating and calling)
 
@@ -186,3 +201,130 @@ Option #1 - Scooter Application:
 Option #2 - Inventory Management System:
 
 - Create a store inventory manager allowing users to add, update, and view products. Include stock availability checks, total inventory value calculations, and report generation.
+
+4. TDD, Exception Handling, and File I/O in C#
+   This section covers the following topics:
+
+- Test Driven Development in C#
+- Exception Handling in C#
+- Handling Exceptions with try-catch Blocks
+- Reading and Writing Files in C#
+- Streams and Byte Arrays in C#
+
+By completing these tasks, you should have a good understanding of how to create unit tests in C#, handle exceptions in your programs, read and write files, and work with streams and byte arrays.
+
+Tasks
+
+Test Driven Development in C#
+
+- Research the NUnit, MSTest, and xUnit.net unit testing frameworks. Determine which is best for your project.
+- Return to the mini-project from the previous section and create tests for the functions you wrote.
+- Use a TDD approach to create new functions by writing tests first.  
+  Example: Write tests for a function that returns the largest element of an array before writing the function.
+
+Exception Handling in C#
+
+- Learn about exceptions and their role in managing errors in C# programs.
+- Understand the importance of exception handling for robust programs.
+- Identify potential exceptions in previous projects and define exception types.
+
+Handling Exceptions with try-catch Blocks
+
+- Learn how to use `try-catch` blocks for exception handling in C#.
+- Understand the differences between checked and unchecked exceptions.
+- Practice applying exception handling to existing code by wrapping sections in `try-catch` blocks.
+
+Reading and Writing Files in C#
+
+- Learn how to read and write files using the `File` and `StreamReader`/`StreamWriter` classes.
+- Understand how to handle exceptions when working with files.
+- Create a program that reads a text file and counts the number of words in it. Use exception handling to ensure the file is accessible.
+
+Streams and Byte Arrays in C#
+
+- Learn about streams and byte arrays in C#.
+- Practice using streams to read and write data efficiently.
+- Create a program that demonstrates reading and writing data using byte arrays.
+
+Build Something 🔨
+**Option #1 - Word Frequency Analyzer:**
+
+- Create a program that reads a text file, processes its contents, and generates a report of word frequencies.
+- Include exception handling and write unit tests.
+
+**Option #2 - Movie Recommendation System:**
+
+- Build a program that suggests movies based on user preferences and previously watched movies.
+- Use file input to read the list of watched movies and genres, and implement exception handling.
+
+---
+
+5. Advanced Topics in C#
+   This section covers the following topics:
+
+- Delegates and Events in C#
+- Generics in C#
+- LINQ (Language Integrated Query) in C#
+- Asynchronous Programming in C#
+
+By completing these tasks, you’ll gain a deeper understanding of advanced C# programming techniques and concepts.
+
+Tasks
+
+Delegates and Events in C#
+
+- Learn about delegates and events in C# programming.
+- Understand how delegates are used to reference methods.
+- Practice creating events to handle program input or user actions.
+
+Generics in C#
+
+- Learn about generic types and methods.
+- Understand how generics enable flexible and reusable code.
+- Practice implementing generic types and methods in your programs.
+
+LINQ (Language Integrated Query) in C#
+
+- Learn the fundamentals of LINQ and its use for querying data.
+- Practice using LINQ to filter and manipulate data.
+- Create a program that uses LINQ to query collections or databases.
+
+Asynchronous Programming in C#
+
+- Learn how to write asynchronous code using `async` and `await`.
+- Understand how asynchronous programming improves program performance.
+- Practice writing asynchronous methods to handle tasks such as API calls or file processing.
+
+Build Something 🔨
+**Option #1 - Task Management Application:**
+
+- Build an app to create, update, and track tasks using LINQ, async programming, and exception handling.
+
+**Option #2 - Movie Recommendation System:**
+
+- Extend the system from Section 4. Add LINQ to filter movies based on genre, rating, or release year.
+- Incorporate asynchronous programming for file or database interactions.
+
+**Option #3 - Event Management System:**
+
+- Create an event manager where users can register for events and receive notifications.
+- Use delegates and events for event handling.
+
+---
+
+Final Project Ideas
+After completing Sections 4 and 5, choose a larger project to apply your skills:
+
+1. **Address Book:**
+
+   - Build a program to manage contacts (add, edit, delete).
+   - Use file I/O for data storage and exception handling.
+
+2. **File Organizer:**
+
+   - Create an app to organize files based on user-defined rules.
+   - Use streams and exception handling for file operations.
+
+3. **Hangman Game:**
+   - Develop a console-based Hangman game.
+   - Use file I/O to load words and apply exception handling for missing files.
