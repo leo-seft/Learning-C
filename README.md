@@ -115,8 +115,15 @@ Loops (for, while, do-while)
 Functions in C# (creating and calling)
 
 - Learn how to define and call functions in C#.
+  'modifiers return-type method-name parameter-list'
+  when a method has no return type, it is set to void
+
 - Understand the difference between methods and functions in C#.
+  A function is independent and can be called without an object
+
 - Practice writing functions that perform simple tasks like a function that prints out a message when called.
+
+Please see Day5-functions
 
 Passing Arguments to Functions
 
@@ -128,17 +135,24 @@ Returning Values from Functions
 
 - Learn how to return values from functions in C#.
 - Understand the difference between void and non-void functions in C#.
+  void is when you dont expect a new value to return ie just hello but non-void is for when a new value is returned such as 1+1=2
+
 - Practice using functions to perform complex tasks and return values to the main program.
+
+Please see Day5-functions
 
 Build Something 🔨
 Option #1 - Rock, Paper, Scissors:
 
 - Create a program that:
-  - Asks the user for an input of rock, paper, or scissors.
-  - Randomly selects rock, paper, or scissors for the computer.
-  - Determines the winner of the game based on the random values that were selected.
+
+  - Asks the user for an input of rock, paper, or scissors. - Done
+  - Randomly selects rock, paper, or scissors for the computer. - Done
+  - Determines the winner of the game based on the random values that were selected. - Done
   - Tracks the player and computer scores.
   - Allows the player to play until they opt to end the game.
+
+  Please see Rock, Paper, Scissors
 
 Option #2 - Command Line Calculator:
 
