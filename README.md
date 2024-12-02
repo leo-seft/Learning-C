@@ -69,7 +69,6 @@ Build Something 🔨
 
 - Name Badge Generator: Create a name prompt program that asks users for their name, job, and contact information. Once the program has this information, output a name badge with this information.
   Please see Day3-smallprojects
-- Explore how to accept user input through use of the ReadLine() method.
 
 ---
 
@@ -142,7 +141,7 @@ Returning Values from Functions
 Please see Day5-functions
 
 Build Something 🔨
-Option #1 - Rock, Paper, Scissors:
+Rock, Paper, Scissors:
 
 - Create a program that:
 
@@ -153,14 +152,6 @@ Option #1 - Rock, Paper, Scissors:
   - Allows the player to play until they opt to end the game.
 
   Please see Rock, Paper, Scissors
-
-Option #2 - Command Line Calculator:
-
-- Create a C# console application that performs various operations on a given number based on user input. The program should display a menu to the user with the different options like:
-  - Check if a number is positive or negative.
-  - Determine if a number is prime.
-  - Calculate the factorial of a number.
-  - Exit the program.
 
 ---
 
@@ -185,6 +176,8 @@ Introduction to Object-Oriented Programming (OOP) Concepts
 Creating Classes and Objects in C#
 
 - Learn how to create classes in C#.
+  'Class class-name{
+  }
 - Understand how to instantiate objects from classes.
 - Practice creating and using objects to perform simple tasks.
 
@@ -194,18 +187,24 @@ Defining and Accessing Class Members (fields, properties, methods)
 - Understand the differences between fields and properties in C#.
 - Practice accessing class members from objects to perform complex tasks.
 - Example: Create a Person class with name, age, and hometown fields. The class should also have a bio method that prints the person's information.
+  please see Day6-OOP
 
 Inheritance and Polymorphism in C#
 
 - Learn about inheritance and polymorphism in C# programming.
 - Understand how to create derived classes that inherit from base classes.
+  class DerivedClass : BaseClass{}
 - Example: Create a Shape calculator with a parent Shape class and subclasses like Circle, Triangle, Square. Implement an `Area()` method in each class to calculate respective areas.
+
+please see Day6-OOP
 
 Interfaces and Abstract Classes in C#
 
 - Learn about interfaces and abstract classes in C# programming.
 - Understand the differences between interfaces and abstract classes.
+  Interface is something classes must follow, abstract is a partial implementation that can be inherited
 - Practice creating interfaces and abstract classes to define common behavior for classes.
+  Please see Day6-OOP
 
 Build Something 🔨
 Option #1 - Scooter Application:
