@@ -231,6 +231,8 @@ Tasks
 Test Driven Development in C#
 
 - Research the NUnit, MSTest, and xUnit.net unit testing frameworks. Determine which is best for your project.
+  I think xUnit test would be the best for my project as it is more simple when it comes to File testing and it has a clean design.
+
 - Return to the mini-project from the previous section and create tests for the functions you wrote.
 - Use a TDD approach to create new functions by writing tests first.  
   Example: Write tests for a function that returns the largest element of an array before writing the function.
@@ -239,11 +241,23 @@ Exception Handling in C#
 
 - Learn about exceptions and their role in managing errors in C# programs.
 - Understand the importance of exception handling for robust programs.
+  Helps protect programs from potential errors or bugs
+
 - Identify potential exceptions in previous projects and define exception types.
 
 Handling Exceptions with try-catch Blocks
 
 - Learn how to use `try-catch` blocks for exception handling in C#.
+  try{
+  // Code
+  }
+  catch{
+  // Does nothing
+  }
+  finally{
+  // clean up
+  }
+
 - Understand the differences between checked and unchecked exceptions.
 - Practice applying exception handling to existing code by wrapping sections in `try-catch` blocks.
 
@@ -252,6 +266,7 @@ Reading and Writing Files in C#
 - Learn how to read and write files using the `File` and `StreamReader`/`StreamWriter` classes.
 - Understand how to handle exceptions when working with files.
 - Create a program that reads a text file and counts the number of words in it. Use exception handling to ensure the file is accessible.
+  Please see Day7-ReadingWriting
 
 Streams and Byte Arrays in C#
 
