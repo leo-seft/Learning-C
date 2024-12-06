@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Day10-SmallProject/1.0.0": {
+        "runtime": {
+          "Day10-SmallProject.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Day10-SmallProject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
